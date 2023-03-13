@@ -1,0 +1,39 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ChromeSuite" type="TestNG" folderName="New Folder">
+    <module name="encyroUIAutomation" />
+    <shortenClasspath name="NONE" />
+    <useClassPathOnly />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.encyro.test.encyro.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="16" />
+    <option name="SUITE_NAME" value="$PROJECT_DIR$/POCSuite.xml" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="GROUP_NAME" value="" />
+    <option name="TEST_OBJECT" value="SUITE" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="D:\Hemangi_work\freelance\aug2022\encyroUIAutomation\Results" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="moduleWithDependencies" />
+    </option>
+    <option name="PROPERTIES_FILE" value="" />
+    <properties>
+      <property name="browser" value="chrome" />
+    </properties>
+    <listeners>
+      <listener class="com.encyro.report.ListenerTest" />
+      <listener class="com.encyro.report.ReportListener" />
+      <listener class="org.testng.reporters.EmailableReporter" />
+      <listener class="com.encyro.report.CustReportListener" />
+    </listeners>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
